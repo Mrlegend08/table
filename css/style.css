@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.wrapper{
+    padding: 20px;
+    border: 2px solid black;
+    color: black;
+    font-weight: 800px;
+    text-align: center;
+    
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto 20px auto;
+}
+table{
+    border: 1px solid #DBE1E1;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid #DBE1E1;
+    background-color: #ECF1F7;
+}
+thead > tr > th{
+    width: 200px;
+    padding: 7px;
+}
+
+td{
+    padding-right: 5px;
+}
